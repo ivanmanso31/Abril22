@@ -1,0 +1,12 @@
+<body>
+@for (articulo of articulos; track $index) {
+    @if (id==articulo.id) {
+        <div class="contenedor">
+            <img src={{articulo.ruta}} class="imagen">
+            <h1 class="titulo">{{articulo.titulo}}</h1>
+            <p class="descripcion">{{articulo.descripcion}}</p>
+        </div>
+    }
+}
+</body>
+

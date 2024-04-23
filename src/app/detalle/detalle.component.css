@@ -1,0 +1,11 @@
+.detalle-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: aquamarine;
+    margin: 5px;
+    height: 100vh;
+}
+.detalle-container img {
+    margin: 10px;
+}

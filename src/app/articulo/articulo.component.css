@@ -1,0 +1,27 @@
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-color: black;
+}
+
+.imagen {
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.titulo {
+    font-size: 24px;
+    margin-top: 20px;
+    color: greenyellow;
+}
+
+.descripcion {
+    margin-top: 10px;
+    color: white;
+}

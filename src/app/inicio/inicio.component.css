@@ -1,0 +1,18 @@
+.inmueble-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: aquamarine;
+    margin: 5px;
+}
+.inmueble-container img {
+    margin: 10px;
+}
+.inicio-container {
+    background-color: green;
+    height: 30px;
+    margin: 5px
+}
+.inicio-container p{
+    color: white;
+}

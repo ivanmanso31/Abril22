@@ -1,0 +1,17 @@
+
+<h1>Inmuebles futuro</h1>
+<div class="inicio-container">
+    <p>Inmuebles disponibles</p>
+</div>
+@for (inmueble of inmuebles; track $index) {
+    <div class="inmueble-container">
+        <img src={{inmueble.ruta}}>
+        <div>
+            <p texta>
+                <label>{{inmueble.descripcion}}</label>
+            </p>
+            <p><a [routerLink]="['/detalle',inmueble.id]">Más detalles</a></p>
+        </div>
+    </div>
+}
+

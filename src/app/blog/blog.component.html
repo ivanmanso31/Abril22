@@ -1,0 +1,15 @@
+
+
+<div class="contenedor">
+    <img src="assets/images/hacker.jpg" class="imagen-fondo">
+    @for (articulo of articulos; track $index) {
+    <div class="articulo">
+        <img src={{articulo.ruta}}>
+        <div class="articulo-texto">
+            <h2 class="titulo">{{articulo.titulo}}</h2>
+            <p class="texto">{{articulo.descripcion}}</p>
+            <button class="boton" [routerLink]="['/articulo',articulo.id]">Detalles</button>
+        </div>
+    </div>
+}
+</div>
