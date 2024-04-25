@@ -1,13 +1,9 @@
-
-@for (inmueble of inmuebles; track $index) {
-    @if (id==inmueble.id) {
-    <div class="detalle-container">
-        <img src={{inmueble.ruta}}>
-        <div>
-            <p texta>
-                <label>{{inmueble.descripcion}}</label>
-            </p>
-        </div>
+<div class="detalle-container">
+    <img src={{inmueble?.ruta}}>
+    <div>
+        <p texta>
+            <label>{{inmueble?.descripcionLarga}}</label>
+        </p>
     </div>
-    }
-}
+</div>
+
